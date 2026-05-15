@@ -35,6 +35,39 @@ const cl = console.log;
 //ES6 ES2015
 // const button = new Button("Add", "green");
 // button.show(cl);
-const button = new WindowsButton("Add", "green", 300, 100);
-cl(button);
-button.show(cl);
+// const button = new WindowsButton("Add", "green", 300, 100);
+// cl(typeof Button);
+
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+  toString() {
+    return `${this.x} ${this.y} `;
+  }
+  valueOf() {
+    return 100;
+  }
+}
+//JavaScript Object Notation (JSON)
+// const obj = { a: 1, b: 2 };
+// cl(JSON.stringify(obj));
+// const json = '{"name":"Bob", "age":20}';
+// const user = JSON.parse(json);
+// cl(Object.keys(user));
+// cl(Object.values(user));
+// cl(Object.entries(user)[0]);
+// cl(Object.entries(user)[1]);
+// for (let key in user) {
+//   cl(`${key} -> ${user[key]}`);
+// }
+
+const obj = {
+  name: "Test",
+  f: () => {
+    console.log(this);
+  },
+};
+
+obj.f();
