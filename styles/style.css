@@ -1,0 +1,16 @@
+.active {
+  background-color: aquamarine;
+  color: purple;
+}
+
+.non-active {
+  background-color: yellow;
+  color: blue;
+}
+
+#block {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

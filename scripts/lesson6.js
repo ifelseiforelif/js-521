@@ -73,6 +73,12 @@ btn1.onclick = function () {
   // f("red", "Delete");
 };
 
+document.body.addEventListener("mousemove", (ev) => {
+  document.getElementById("coords").innerHTML = `${ev.clientX} ${ev.clientY}`;
+});
+document.body.addEventListener("mousedown", () => {
+  alert("Clicked");
+});
 //call, apply,bind
 
 // const buttons = document.querySelectorAll("button");
