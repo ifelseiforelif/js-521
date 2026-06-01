@@ -1,0 +1,1 @@
+{"version":3,"file":"RestClient.d.ts","sourceRoot":"","sources":["../src/RestClient.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,eAAe,CAAC;AACrC,cAAM,UAAU;IACd,OAAO,CAAC,MAAM,CAAC,QAAQ,CAAC,IAAI,CAA0C;WAClD,QAAQ,IAAI,OAAO,CAAC,IAAI,CAAC;WAMzB,OAAO,CAAC,IAAI,EAAE,QAAQ,GAAG,OAAO,CAAC,IAAI,CAAC;CAW3D;AAED,eAAe,UAAU,CAAC"}
